@@ -50,7 +50,7 @@ header .imagen-mepi{
 .imagen-mepi1{
     width: 50px;
     height: 50px;
-    margin-left: 1120px;
+    margin-left: 1060px;
     margin-top: -90px;
 }
 
@@ -365,4 +365,58 @@ footer{
     font-size: 24px;
     margin: 20px 0 0;
     color: #9e9797;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td{
+    padding: 20px;
+    text-align: center;
+}
+#champions{
+    background-color: blue;
+}
+#EuropaLeague{
+    background-color: brown;
+}
+#ConferenceLeague{
+    background-color: #ef0;
+}
+#Descenso{
+    background-color: red;
+}
+
+th{
+    background-color: hsl(0, 3%, 61%);
+}
+
+#wg-api-football-standings{
+    margin-top: auto;
+    margin-left: 500px;
+    width: 500px;
+    height: 1000px;
+    padding: 10px;
+    text-align: center;
+}
+
+#premier{
+    height: 1000PX;
+    flex-direction: column;
+}
+
+#titulo{
+    margin-left: 250px;
+    width: 125px;
+    font-size: 30;
+    background-size: 30px;
+    background-color: #fff;
+}
+
+#titulo:hover{
+    text-decoration: underline #ff0000;
+    text-decoration-thickness: 5px;
 }

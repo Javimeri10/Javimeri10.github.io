@@ -1,0 +1,198 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM | MEPI</title>
+    <link rel="shortcut icon" href="img/mepi.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="acerca-de.html">Acerca de</a>
+            <a href="deportes.html">Deportes</a>
+            <a href="Patata.html">Patata</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <section id="logo">
+            <a href="index.html">
+                <img style="margin-top: -35px;" src="img/mepi.png" alt="" class="imagen-mepi1">
+            </a>
+            <div id="wg-api-football-standings"
+        data-host="v3.football.api-sports.io"
+        data-key="8a527b224bb7a6b43537b724ea187ad1"
+        data-league="140"
+        data-team=""
+        data-season="2022"
+        data-theme="Default"
+        data-show-errors="false"
+        data-show-logos="true"
+        class="wg_loader">
+    </div>
+
+    <script
+        type="module"
+        src="https://widgets.api-sports.io/2.0.3/widgets.js">
+    </script>
+    </header>
+
+
+    <!-- <section id="Tabla"> -->
+        
+        <!-- <table>
+            <tr>
+                <th>#</th>
+                <th>Equipo</th>
+                <th>Pj</th>
+                <th>Goles</th>
+                <th>Puntos</th>
+            </tr>
+            <tr>
+                <td id="champions">1.</td>
+                <td>Barcelona</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td id="champions">2.</td>
+                <td>Real Madrid</td>
+                <td>13</td>
+                <td>31:13</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td id="champions">3.</td>
+                <td>Real Sociedad</td>
+                <td>14</td>
+                <td>19:17</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td id="champions">4.</td>
+                <td>Athletic Club</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td id="EuropaLeague">2.</td>
+                <td>Atletico de Madrid</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td id="ConferenceLeague">2.</td>
+                <td>Real Betis</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>Osasuna</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>Rayo Vallecano</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>9.</td>
+                <td>Villareal</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>10.</td>
+                <td>Real Valladolid</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>11.</td>
+                <td>Valencia</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>12.</td>
+                <td>Mallorca</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>13.</td>
+                <td>Girona</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>14.</td>
+                <td>Almeria</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>15.</td>
+                <td>Getafe</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>16.</td>
+                <td>Espanyol</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>17.</td>
+                <td>Sevilla</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td id="Descenso">18.</td>
+                <td>Celta de Vigo</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td id="Descenso">19.</td>
+                <td>Cadiz</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td id="Descenso">20.</td>
+                <td>Elche</td>
+                <td>14</td>
+                <td>33:5</td>
+                <td>37</td>
+            </tr>
+        </table>
+
+    </section> -->
+<body>
+<html>
